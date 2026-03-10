@@ -1,0 +1,8 @@
+model: yolov8n.pt
+confidence: 0.5
+grid_rows: 8
+grid_cols: 8
+danger_threshold: 2      # 2+ people in cell = DANGER
+caution_threshold: 1
+input_source: 0          # 0=webcam, or "video.mp4"
+alert_on_danger: true 
